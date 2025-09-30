@@ -37,6 +37,7 @@ namespace ContosoUniversity.Data
                     
                 }
                 await context.SaveChangesAsync();
+                Console.WriteLine("Database has been seeded");
             }
         }
         public void ExportToXml(IServiceProvider serviceProvider)
