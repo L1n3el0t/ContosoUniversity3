@@ -1,5 +1,5 @@
 # ContosoUniversity3
-I just realized after spending all day following your lecture 6 video that not everything aligned with the instructions, but if you look at the following programs in my next week submisssion (ContosoUniversity4) it should provide an export and use XDocument for the student model which was how this program was before I saw your video
+I just realized after spending all day following your lecture 6 video that not everything aligned with the instructions, but if you look at the following programs in my next week submisssion (ContosoUniversity4) it should provide an export and use XDocument for the student model which was what this program did before I saw your video
 
 
 1. Create an xml file of data from the students, courses, and instructors models
