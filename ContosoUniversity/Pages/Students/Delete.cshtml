@@ -1,0 +1,24 @@
+﻿@page
+@model ContosoUniversity.Pages.Students.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+    ViewData["ShowButtons"] = false;
+}
+
+<h1>Delete</h1>
+
+<p class="text-danger">@Model.ErrorMessage</p>
+
+<h2>Are you sure you want to delete? This is the students name and enrolllment date:</h2>
+<h3><partial name="_DisplayStudentPartial" model="Model.Student" view-data="ViewData" /></h3>
+
+<div>
+    <hr />
+    
+    <form method="post">
+        <input type="hidden" asp-for="Student.ID" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>
